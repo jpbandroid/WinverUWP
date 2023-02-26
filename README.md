@@ -2,7 +2,7 @@
 A UWP version of winver.
 Fork of Winver UWP by Dongle
 
-NOTE: To add your own branding images, please replace the Windows10-<theme>.png or Windows11-<theme>.png with your images.
+NOTE: To add your own branding images, please replace the Windows10-(theme).png or Windows11-(theme).png with your images.
 Also change occurences of Windivs to your custom name.
 
 ![WinverUWP on Windows 11 (Dev)](/images/WinverUWP-dark-11.png)

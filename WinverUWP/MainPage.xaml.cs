@@ -67,7 +67,28 @@ namespace WinverUWP
             Window.Current.SetTitleBar(TitleBar);
 
             Window.Current.Activated += Current_Activated;
+
+            var ownerName = RegistryHelper.GetInfoString("RegisteredOwner");
+            if (ownerName != null) {
+                OwnerText.Text = ownerName;
+            }
+            OwnerText.Visibility = string.IsNullOrEmpty(ownerName) ? Visibility.Collapsed : Visibility.Visible;
+
+            var ownerOrg = RegistryHelper.GetInfoString("RegisteredOrganization");
+            if (ownerOrg != null)
+            {
+
+            OrgText.Text = ownerOrg;
+            }
+            OrgText.Visibility = string.IsNullOrEmpty(ownerOrg) ? Visibility.Collapsed : Visibility.Visible;
+
+            if (string.IsNullOrEmpty(ownerName) && string.IsNullOrEmpty(ownerOrg))
+            {
+                OwnerText.Text = ownerName;
+            }
+                
         }
+    
 
         private void CoreTitleBar_IsVisibleChanged(CoreApplicationViewTitleBar sender, object args)
         {

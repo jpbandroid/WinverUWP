@@ -38,6 +38,8 @@ namespace WinverUWP
         public MainPage()
         {
             InitializeComponent();
+
+            UpdateWindowsBrand();
                 
             _uiSettings = new UISettings();
 
@@ -166,90 +168,13 @@ namespace WinverUWP
         }
 #endif
 
-        private void Page_Loaded(object sender, RoutedEventArgs e)
-        {
-#if DEBUG
-            try
-            {
-                Test();
-            }
-            catch { }
-#endif
-            string deviceFamilyVersion = AnalyticsInfo.VersionInfo.DeviceFamilyVersion;
-            ulong version = ulong.Parse(deviceFamilyVersion);
-            ulong build = (version & 0x00000000FFFF0000L) >> 16;
-            var revision = version & 0x000000000000FFFF;
-
-            OSName = build >= 21996 ? "Windows11Logo" : "Windows10Logo";
-            UpdateWindowsBrand();
-            SetTitleBarBackground();
-
-            _uiSettings.ColorValuesChanged += async (a, b) =>
-            {
-                await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
-                {
-                    UpdateWindowsBrand();
-                    SetTitleBarBackground();
-                });
-            };
-
-            Build.Text = build.ToString();
-
-            if (revision != 0)
-                Build.Text += $".{revision}";
-
-            string productName = "";
-
-            if (AnalyticsInfo.VersionInfo.DeviceFamily == "Windows.Desktop")
-                productName = WinbrandHelper.GetWinbrand();
-            else
-                productName = RegistryHelper.GetInfoString("ProductName");
-
-            Edition.Text = productName;
-            LicensingText.Text = resourceLoader.GetString("Trademark/Text").Replace("Windows", productName);
-
-            var displayVersion = RegistryHelper.GetInfoString("DisplayVersion");
-            if (string.IsNullOrEmpty(displayVersion))
-                displayVersion = RegistryHelper.GetInfoString("ReleaseId");
-
-            Version.Text = displayVersion;
-
-            var date = GetWindowsInstallationDateTime().ToLocalTime();
-            var userCulture = CultureInfoHelper.GetCurrentCulture();
-            InstalledOn.Text = date.ToString("d", userCulture);
-
-
-            using (X509Certificate2 cert = new X509Certificate2("C:\\Windows\\System32\\ntdll.dll"))
-            {
-                if (cert.Issuer.Contains("Development"))
-                    Expiration.Text = cert.NotAfter.ToString("g", userCulture);
-                else
-                {
-                    Expiration.Visibility = Visibility.Collapsed;
-                    ExpirationLabel.Visibility = Visibility.Collapsed;
-                }
-            }
-
-            var ownerName = RegistryHelper.GetInfoString("RegisteredOwner");
-            if (ownerName != null)
-                OwnerText.Text = ownerName;
-            OwnerText.Visibility = string.IsNullOrEmpty(ownerName) ? Visibility.Collapsed : Visibility.Visible;
-
-            var ownerOrg = RegistryHelper.GetInfoString("RegisteredOrganization");
-            if (ownerOrg != null)
-                OrgText.Text = ownerOrg;
-            OrgText.Visibility = string.IsNullOrEmpty(ownerOrg) ? Visibility.Collapsed : Visibility.Visible;
-
-            if (string.IsNullOrEmpty(ownerName) && string.IsNullOrEmpty(ownerOrg))
-                LicenseTo.Visibility = Visibility.Collapsed;
-        }
-
+        
         private void UpdateWindowsBrand()
         {
             BrandImage.Source = new SvgImageSource(
                 new Uri(
                     "ms-appx:///Assets/"
-                    + OSName
+                    + "Windows10Logo"
                     + "-"
                     + (Application.Current.RequestedTheme == ApplicationTheme.Dark ? "light" : "dark")
                     + ".svg"));

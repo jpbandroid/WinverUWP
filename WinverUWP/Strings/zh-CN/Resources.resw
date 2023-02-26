@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutWindows.Text" xml:space="preserve">
-    <value>关于"Windows"</value>
+    <value>关于"Windivs"</value>
   </data>
   <data name="CopiedButton.Text" xml:space="preserve">
     <value>已复制!</value>
@@ -142,7 +142,7 @@
     <value>法律</value>
   </data>
   <data name="LicenseTo.Text" xml:space="preserve">
-    <value>根据 Microsoft 软件许可条款，许可如下用户使用本产品:</value>
+    <value>Windows（根据 winver 中描述的条款）被许可用于：</value>
   </data>
   <data name="OKButton.Content" xml:space="preserve">
     <value>确定</value>
@@ -151,7 +151,7 @@
     <value>操作系统版本</value>
   </data>
   <data name="Trademark.Text" xml:space="preserve">
-    <value>Windows 操作系统及其用户界面受美国和其它国家/地区的商标法和其他待颁布或已颁布的知识产权法保护。</value>
+    <value>Windows 许可条款，请在 winver 小程序中阅读。</value>
   </data>
   <data name="Version.Text" xml:space="preserve">
     <value>版本</value>

@@ -142,7 +142,7 @@
     <value>Note legali</value>
   </data>
   <data name="LicenseTo.Text" xml:space="preserve">
-    <value>Prodotto connesso in licenza in base alle Condizioni di licenza software Microsoft a:</value>
+    <value>Windows (secondo i termini descritti in winver) è concesso in licenza a:</value>
   </data>
   <data name="OKButton.Content" xml:space="preserve">
     <value>OK</value>
@@ -151,7 +151,7 @@
     <value>Build</value>
   </data>
   <data name="Trademark.Text" xml:space="preserve">
-    <value>Il sistema operativo Windows e la relativa interfaccia utente sono protetti da marchi e da altri diritti di proprietà intellettuale in corso di registrazione o registrati negli Stati Uniti e/o negli altri paesi o aree geografiche.</value>
+    <value>Per i termini di licenza di Windows, leggili nell'applet di Winver.</value>
   </data>
   <data name="Version.Text" xml:space="preserve">
     <value>Versione</value>

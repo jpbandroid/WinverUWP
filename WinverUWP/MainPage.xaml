@@ -7,7 +7,6 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
     muxc:BackdropMaterial.ApplyToRootOrPageBackground="True"
-    Loaded="Page_Loaded"
     mc:Ignorable="d">
 
     <Grid isMicaIncompatible:Background="{ThemeResource SystemControlAcrylicWindowBrush}">
@@ -221,7 +220,7 @@
                             Grid.Column="1"
                             Margin="0,0,0,5"
                             HorizontalAlignment="Left"
-                            d:Text="Windows 11 Pro"
+                            Text="Windivs 10 Pro"
                             Foreground="{ThemeResource SystemControlForegroundBaseMediumBrush}"
                             IsTextSelectionEnabled="True"
                             TextWrapping="WrapWholeWords" />
@@ -235,7 +234,7 @@
                             Grid.Column="1"
                             Margin="0,0,0,5"
                             HorizontalAlignment="Left"
-                            d:Text="21H2"
+                            Text="21H2"
                             Foreground="{ThemeResource SystemControlForegroundBaseMediumBrush}"
                             IsTextSelectionEnabled="True"
                             TextWrapping="WrapWholeWords" />
@@ -249,7 +248,7 @@
                             Grid.Column="1"
                             Margin="0,0,0,5"
                             HorizontalAlignment="Left"
-                            d:Text="01/01/1970"
+                            Text="25/02/2023"
                             Foreground="{ThemeResource SystemControlForegroundBaseMediumBrush}"
                             IsTextSelectionEnabled="True"
                             TextWrapping="WrapWholeWords" />
@@ -263,7 +262,7 @@
                             Grid.Column="1"
                             Margin="0,0,0,5"
                             HorizontalAlignment="Left"
-                            d:Text="22000.1"
+                            Text="19044.1288"
                             Foreground="{ThemeResource SystemControlForegroundBaseMediumBrush}"
                             IsTextSelectionEnabled="True"
                             TextWrapping="WrapWholeWords" />
@@ -271,17 +270,19 @@
                             Name="ExpirationLabel"
                             x:Uid="Expiration"
                             Grid.Row="4"
-                            Margin="0,0,20,5" />
+                            Margin="0,0,20,5"
+                            Visibility="Collapsed"/>
                         <TextBlock
                             Name="Expiration"
                             Grid.Row="4"
                             Grid.Column="1"
                             Margin="0,0,0,5"
                             HorizontalAlignment="Left"
-                            d:Text="01/01/1970"
+                            Text="01/01/1970"
                             Foreground="{ThemeResource SystemControlForegroundBaseMediumBrush}"
                             IsTextSelectionEnabled="True"
-                            TextWrapping="WrapWholeWords" />
+                            TextWrapping="WrapWholeWords"
+                            Visibility="Collapsed"/>
                     </Grid>
                 </muxc:Expander>
 
@@ -308,7 +309,8 @@
                             Name="LicensingText"
                             x:Uid="Trademark"
                             HorizontalAlignment="Stretch"
-                            TextWrapping="WrapWholeWords" />
+                            TextWrapping="WrapWholeWords"
+                            Text="For Windows License Terms, please read them in winver applet."/>
                         <TextBlock
                             Name="LicenseTo"
                             x:Uid="LicenseTo"
@@ -318,13 +320,13 @@
                             <TextBlock
                                 Name="OwnerText"
                                 HorizontalAlignment="Left"
-                                d:Text="Windows User"
+                                Text="Windows User"
                                 IsTextSelectionEnabled="True"
                                 TextWrapping="Wrap" />
                             <TextBlock
                                 Name="OrgText"
                                 HorizontalAlignment="Left"
-                                d:Text="Windows User"
+                                Text="Windows User"
                                 IsTextSelectionEnabled="True"
                                 TextWrapping="Wrap" />
                         </StackPanel>

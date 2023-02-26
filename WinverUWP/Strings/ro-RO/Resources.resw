@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutWindows.Text" xml:space="preserve">
-    <value>Despre Windows</value>
+    <value>Despre Windivs</value>
   </data>
   <data name="CopiedButton.Text" xml:space="preserve">
     <value>Copiat!</value>
@@ -142,7 +142,7 @@
     <value>Informații legale</value>
   </data>
   <data name="LicenseTo.Text" xml:space="preserve">
-    <value>Acest produs este oferit sub licență conform condițiilor din Termenii licenței pentru software Microsoft către:</value>
+    <value>Windows (în condițiile descrise în winver) are licență pentru:</value>
   </data>
   <data name="OKButton.Content" xml:space="preserve">
     <value>OK</value>
@@ -151,7 +151,7 @@
     <value>Versiune SO</value>
   </data>
   <data name="Trademark.Text" xml:space="preserve">
-    <value>Sistemul de operare Windows și interfața sa utilizator sunt protejate prin marcă comercială și alte drepturi de proprietate intelectuală în așteptare sau depline în Statele Unite ale Americii sau în alte țări/regiuni.</value>
+    <value>Pentru Termenii licenței Windows, vă rugăm să-i citiți în applet-ul winver.</value>
   </data>
   <data name="Version.Text" xml:space="preserve">
     <value>Versiune</value>

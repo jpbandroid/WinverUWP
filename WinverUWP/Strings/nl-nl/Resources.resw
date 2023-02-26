@@ -142,7 +142,7 @@
     <value>Wettelijke informatie</value>
   </data>
   <data name="LicenseTo.Text" xml:space="preserve">
-    <value>Dit product is gelicenseerd onder de Microsoft Software Licentie Termen aan:</value>
+    <value>Windows (volgens de voorwaarden beschreven in winver) is gelicentieerd voor:</value>
   </data>
   <data name="OKButton.Content" xml:space="preserve">
     <value>OK</value>

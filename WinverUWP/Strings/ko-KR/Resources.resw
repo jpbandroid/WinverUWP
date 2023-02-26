@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutWindows.Text" xml:space="preserve">
-    <value>Windows 정보</value>
+    <value>Windivs 정보</value>
   </data>
   <data name="CopiedButton.Text" xml:space="preserve">
     <value>복사 완료!</value>
@@ -142,7 +142,7 @@
     <value>적법</value>
   </data>
   <data name="LicenseTo.Text" xml:space="preserve">
-    <value>이 제품은 Microsoft 소프트웨어 사용 조건에 따라 다음 사용자가 사용할 수 있습니다:</value>
+    <value>Windows(winver에 설명된 조건에 따라)는 다음에 대해 라이선스가 부여됩니다.</value>
   </data>
   <data name="OKButton.Content" xml:space="preserve">
     <value>OK</value>
@@ -151,7 +151,7 @@
     <value>OS 빌드</value>
   </data>
   <data name="Trademark.Text" xml:space="preserve">
-    <value>Windows 운영 체제 및 해당 사용자 인터페이스는 미국, 대한민국 및 기타 나라에서 상표권 및 출원 중이거나 등록된 지적 재산권에 의해 보호됩니다.</value>
+    <value>Windows 라이선스 조건은 winver 애플릿에서 읽어 보십시오.</value>
   </data>
   <data name="Version.Text" xml:space="preserve">
     <value>버전</value>

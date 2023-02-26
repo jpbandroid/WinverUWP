@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutWindows.Text" xml:space="preserve">
-    <value>Tentang Windows</value>
+    <value>Tentang Windivs</value>
   </data>
   <data name="CopiedButton.Text" xml:space="preserve">
     <value>Disalin!</value>
@@ -142,7 +142,7 @@
     <value>Legal</value>
   </data>
   <data name="LicenseTo.Text" xml:space="preserve">
-    <value>Produk ini dilisensi berdasarkan Persyaratan Lisensi Perangkat Lunak Microsoft untuk:</value>
+    <value>Windows (berdasarkan ketentuan yang dijelaskan dalam winver) dilisensikan untuk:</value>
   </data>
   <data name="OKButton.Content" xml:space="preserve">
     <value>OK</value>
@@ -151,7 +151,7 @@
     <value>Build OS</value>
   </data>
   <data name="Trademark.Text" xml:space="preserve">
-    <value>Sistem operasi Windows dan antarmuka penggunanya dilindungi oleh merek dagang dan hak atas kekayaan intelektual yang ada atau dalam proses di Amerika Serikat dan negara lainnya.</value>
+    <value>Untuk Persyaratan Lisensi Windows, silakan baca di applet winver.</value>
   </data>
   <data name="Version.Text" xml:space="preserve">
     <value>Versi</value>

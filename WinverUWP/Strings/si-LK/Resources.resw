@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutWindows.Text" xml:space="preserve">
-    <value>Windows ගැන</value>
+    <value>Windivs ගැන</value>
   </data>
   <data name="CopiedButton.Text" xml:space="preserve">
     <value>පිටපත් කරන ලදී!</value>
@@ -142,7 +142,7 @@
     <value>නීතිමය</value>
   </data>
   <data name="LicenseTo.Text" xml:space="preserve">
-    <value>මෙම නිෂ්පාදනය Microsoft මෘදුකාංග බලපත්‍ර කොන්දේසි යටතේ බලපත්‍ර ලබා දී ඇත්තේ:</value>
+    <value>Windows (winver හි විස්තර කර ඇති කොන්දේසි යටතේ) බලපත්‍ර ලබා දී ඇත්තේ:</value>
   </data>
   <data name="OKButton.Content" xml:space="preserve">
     <value>හරි</value>
@@ -151,7 +151,7 @@
     <value>මෙහෙයුම් පද්ධතිය ගොඩනැගීම</value>
   </data>
   <data name="Trademark.Text" xml:space="preserve">
-    <value>Windows මෙහෙයුම් පද්ධතිය සහ එහි පරිශීලක අතුරුමුහුණත වෙළඳ ලකුණ සහ එක්සත් ජනපදයේ සහ අනෙකුත් රටවල හෝ ප්‍රදේශ වල පවතින හෝ පවතින බුද්ධිමය දේපල අයිතිවාසිකම් මගින් ආරක්ෂා කර ඇත.</value>
+    <value>Windows බලපත්‍ර නියමයන් සඳහා, කරුණාකර ඒවා winver applet හි කියවන්න.</value>
   </data>
   <data name="Version.Text" xml:space="preserve">
     <value>අනුවාදය</value>

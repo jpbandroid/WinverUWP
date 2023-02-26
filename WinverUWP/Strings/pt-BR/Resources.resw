@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutWindows.Text" xml:space="preserve">
-    <value>Sobre o Windows</value>
+    <value>Sobre o Windivs</value>
   </data>
   <data name="CopiedButton.Text" xml:space="preserve">
     <value>Copiado</value>
@@ -142,7 +142,7 @@
     <value>Legal</value>
   </data>
   <data name="LicenseTo.Text" xml:space="preserve">
-    <value>Este produto está licenciado sob os Termos de Licença para Software Microsoft para:</value>
+    <value>O Windows (nos termos descritos no winver) está licenciado para:</value>
   </data>
   <data name="OKButton.Content" xml:space="preserve">
     <value>OK</value>
@@ -151,7 +151,7 @@
     <value>Compilação do SO</value>
   </data>
   <data name="Trademark.Text" xml:space="preserve">
-    <value>O sistema operacional Windows e sua interface de usuário são protegidos por marca registrada e outros direito de propriedade intelectual existentes ou pendentes nos Estados Unidos e em outros países/regiões.</value>
+    <value>Para os Termos de Licença do Windows, leia-os no miniaplicativo winver.</value>
   </data>
   <data name="Version.Text" xml:space="preserve">
     <value>Version</value>
